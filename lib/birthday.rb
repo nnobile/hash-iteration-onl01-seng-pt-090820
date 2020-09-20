@@ -13,4 +13,3 @@ birthday_kids.collect do |kids_name, age|
   end
 end
 end
-
