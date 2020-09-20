@@ -8,10 +8,10 @@ end
 
 def happy_birthday(birthday_kids, age_appropriate = false)
   birthday_kids.each do |kid,age|
-    if (age < 13 || !age_appropriate) 
+    if (age < 13 || !age_appropriate)
       puts "Happy Birthday #{kid}! You are now #{age} years old!"
     else
       puts "#{kid} you are too old for this."
-    end 
-  end 
+    end
+  end
 end
